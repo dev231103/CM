@@ -1,0 +1,71 @@
+1.
+recon-ng 
+marketplace install hackertarget
+marketplace load hackertarget
+options set SOURCE tesla.com
+info
+input
+run
+show hosts
+marketplace search
+help
+
+
+
+
+2. FOCA
+3.Utilities
+ping google.com
+ping google.com -f -l 1500
+ping google.com -f -l 1400
+ping google.com -f -l 1200
+
+
+tracert google.com
+
+
+5.Nslookup
+nsloopkup
+server 8.8.8.8
+
+set type=any
+ls -d dns.google
+
+
+6.Website Copier
+
+7. Metasploit
+
+db_status
+nmap -Pn -sS -A -oX Test 10.10.10.50/16  
+db_import Test
+
+hosts
+
+db_nmap -sS -A 10.10.50.211
+
+services
+
+use scanner/smb/smb_version
+
+show options
+
+set rhosts 10.10.50.100-211
+set Threads 100
+
+show options
+run
+hosts
+
+
+
+8. Hping
+hping3 -A 192.168.0.1
+hping3 -8 1-600 -S 10.10.50.202 
+
+hping3 -F -P -U 10.10.50.202
+
+
+9.masscan
+masscan -p22,80,445 --range 192.168.1.0/24,10.0.0.0/8
+
