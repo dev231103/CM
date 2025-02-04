@@ -71,10 +71,21 @@ hosts
 8. Hping
 hping3 -A 192.168.0.1
 hping3 -8 1-600 -S 10.10.50.202 
-
 hping3 -F -P -U 10.10.50.202
 
+Command                                      	Purpose
+hping3 -A 192.168.0.1              	ACK scan to check firewall rules & detect live hosts.
+hping3 -8 1-600 -S 10.10.50.202	    SYN port scan (ports 1-600) to detect open services.
+hping3 -F -P -U 10.10.50.202	      Stealth scan using non-standard flags to bypass firewalls.
 
 9.masscan
-masscan -p22,80,445 --range 192.168.1.0/24,10.0.0.0/8
+masscan -p22,80.445 192.168.0.1/24 
+
+
+v. Neet
+git clone https://github.com/JonnyHightower/neet.git
+ sudo ./install.sh 
+
+
+
 
