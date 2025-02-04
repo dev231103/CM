@@ -1,0 +1,6 @@
+1. Nmap
+sudo dhclient eth0(----Caution:Run only when below codes gives an error--------)
+nmap -O <ip address>   
+then open zenmap'
+
+
