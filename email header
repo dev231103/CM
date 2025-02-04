@@ -1,0 +1,229 @@
+Delivered-To: chimbaikarrohan@gmail.com
+Received: by 2002:ab0:54cf:0:b0:7d9:2de4:22be with SMTP id q15csp1291901uaa;
+        Mon, 19 Feb 2024 03:42:12 -0800 (PST)
+X-Forwarded-Encrypted: i=2; AJvYcCXOeDRi7vaonqXSrDst/8WybPFBinbN5zzn45EgL2p4x8xtdWQz+3Cfl3y79mTILHas2EVI6IMvBwYYgwIGIY0Y6CjpRp+e89h/
+X-Received: by 2002:a17:903:41c3:b0:1db:43c3:2574 with SMTP id u3-20020a17090341c300b001db43c32574mr13079080ple.64.1708342931976;
+        Mon, 19 Feb 2024 03:42:11 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1708342931; cv=none;
+        d=google.com; s=arc-20160816;
+        b=VNhY7TrphhYkbW1N+2gA2phYlVOi4fItUY8k2C60UGasMhCIem8yX/XBjE6Q7MWTyy
+         g4dJHcEINYZPdYQgAfrE/8m8YQizv8qypZQ8PVDfZtRpFAOlYRqqE2s0oSNs9iv8NLMj
+         gptlZoB9OVQRM3wiSCG95c420Bclzy6io++IlGpWpaxHzmAgGtuzhL6SFEF1r/e3KoiV
+         aAiW6mmWA6Ejw4OGFMznDpnAyAIhsoxZkFCcoRlbZ0v9yQLY5p2jCDoArM+S1RRVdmj3
+         OeYkpIlNbxVLARpu5QM9tBoOZ+5I5lZbVVVvy+GxDNVLufPWdgpjZ16URlfpCIrbZjOJ
+         rP2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=9ehZNod4k5MCLwvftINSXRrN2PmVeR1sjnv9aAi7kgw=;
+        fh=w8XT6ikQYsMCJPIgIlGddnGzi09pgBDOme07jsY1L6Q=;
+        b=WiXj6+P0AUsaWoOvOQF5Q9C+TNeSrylYBvBLQVu+AI+52b8yvnuVjP9yG4/7M6UWNm
+         yi3j50WqH12ukcaIeAgwA05IpClo6ieGaqoE4Qtnc9DC2FPoEoRoLdghHxc/5iVqtx2m
+         SJAu7NzAFYPRT7qSQgvkFYu6EWZYbnrvJPYXZ8LX25ZsPwbDqlUJSsNbVMJGbv1Dfa5X
+         DMRmu4TILuwxU066i9QeGDgYJtQJF6MbmuEvOrg0VZAINxBEtdtBgbRXs/vqS+qc/kZ4
+         Txv1BV0p2+XGeGgI4OUiuHpbDx/1jdERbFIwpKLYrW5zNgerj8qGDeGsnPrR25rJZb/M
+         nrEQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b="XN/08SgL";
+       spf=pass (google.com: domain of impetusconsultrainers1@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=impetusconsultrainers1@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <impetusconsultrainers1@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x7-20020a170902a38700b001db88897fc8sor1737366pla.20.2024.02.19.03.42.11
+        for <chimbaikarrohan@gmail.com>
+        (Google Transport Security);
+        Mon, 19 Feb 2024 03:42:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of impetusconsultrainers1@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b="XN/08SgL";
+       spf=pass (google.com: domain of impetusconsultrainers1@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=impetusconsultrainers1@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1708342931; x=1708947731; dara=google.com;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=9ehZNod4k5MCLwvftINSXRrN2PmVeR1sjnv9aAi7kgw=;
+        b=XN/08SgLO6Lx47E1QwIiv26zIQgBFs/9t5MSbu31tqL/cCYxDtFadcynpWC5t9GYVX
+         wtIwqCX1P5X+IEqxpoN+O36pX9NxevA6ZpwpugaW6C+q6LMo4gqbNm9wIxp/FPlqPBmH
+         cqrebvHxWgOiZYsrgd4SSt0Y2aO8tQXR0rE1yaQVAI84T2DSE3Lo6tBt6JXXCGY8fzne
+         BpCmwdqlkmcr4XM03pc53p10OVRuV0yvP8WLTJd+ab3JWKjO88OzhmJ1uoMwCrf8A+/y
+         1hRrM/7rfE2fVK5gK749ImPlzuWTuZky6S6zxEktJdsrpF06kC9CFN+yr6LmP7U/jqmC
+         s1dw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708342931; x=1708947731;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=9ehZNod4k5MCLwvftINSXRrN2PmVeR1sjnv9aAi7kgw=;
+        b=IpS9O1ZKG908JhyFq/ml/sE5h1kgWmTnt9pz1u01Y6nskYD1fktf/PnA7zrdHwAMLC
+         550JBGZ/03aYgScZlKSSMqHOOevrhmzkt4L5d+kcsUXtMFsalUMhZxynyg/TeoOIPcA4
+         YQwyhLyfkOL9kjPwoCH9wDbS81hHemjvM5hNs4Js2WTThnRN/PiHKKOoxxI78Xh8ZsKD
+         KgfmFYMlDXfxlJJE2gZP6YBi693yKJ4TEEhOGOkqKOXhROfmL9t/vNhx+x/Wl2P6lGTL
+         jzbD8pmWC+uKRDj73OybKvM2YnUHl4OlkNZrzu80udpUuI1SRMuAiLkJyYKbpedtQcny
+         js2Q==
+X-Forwarded-Encrypted: i=1; AJvYcCUa1GwlUegHYshLPqy8/92U8zylxChPTMW4LtYLeadRFI10fP6zXIPk3GlAdHwsaCzESKIrGxuVXx1mQAhZiMEIb2DgjcNh7zTx
+X-Gm-Message-State: AOJu0YwGeFaRIsyBC6Cen31hQ3Ygnn4DONoGIurrp97G2r0K7pJiAg7l d7qsREKTSKoL38fkDwYL/T41bV4CUWALKraoStw+uyZk5A34iowRS0jVmamgs4dXqYCfzm+jwB0 wTss5OlDVtlji4Mb7jdzyZJB7uRw=
+X-Google-Smtp-Source: AGHT+IGGVufOS0jQsb+lp7HTfQjg2rpXvlYK3CZWhJ/IH9UCNAwE08w6aiLBRFLch+0k04HG4ZYzcjk4ri/Sf6tfYww=
+X-Received: by 2002:a17:90a:bd83:b0:299:300c:4c71 with SMTP id z3-20020a17090abd8300b00299300c4c71mr5666683pjr.28.1708342931065; Mon, 19 Feb 2024 03:42:11 -0800 (PST)
+MIME-Version: 1.0
+From: Impetus Consultrainers <impetusconsultrainers1@gmail.com>
+Date: Mon, 19 Feb 2024 17:11:59 +0530
+Message-ID: <CAJ-dLLJdBma6HLbumfC=WzrhU9FX_+Xfr8WkGKQnYkSXbVjrsw@mail.gmail.com>
+Subject: Join FREE Workshop on Data Analytics and explore the job opportunities
+To: Impetus Consultrainers <impetusconsultrainers1@gmail.com>
+Cc: seema chaudhari <seema3100@gmail.com>, Bhavna Chawda <bhavna.impetus@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000008f93d60611ba9529"
+Bcc: chimbaikarrohan@gmail.com
+
+--0000000000008f93d60611ba9529
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*Dear Candidate,*
+
+Are you fascinated by data? Keen to start a career in the data field, or
+just want to understand what all the fuss is about?
+Don't miss out informative workshop on Data Analytics and career insights
+
+*Scheduled *on Wednesday, 21st Feb. 24 at 11:30 am
+*Venue: Impetus Consultrainers*, 13, First Floor, Bismillah Building,
+
+Opp. Suvidha Showroom, Dadar (W). Mumbai 28
+
+
+
+*What will you learn?     *
+
+
+ =F0=9F=91=89=F0=9F=8F=BBIntroduction to Data analytics
+
+ =F0=9F=91=89=F0=9F=8F=BBData Cleaning
+ =F0=9F=91=89=F0=9F=8F=BBDescriptive Statistics
+
+ =F0=9F=91=89=F0=9F=8F=BBData Visualization
+
+=F0=9F=91=89=F0=9F=8F=BB Career opportunities
+
+
+
+*To register your name Reply with 'YES' *
+
+*Hurry up ..Few seats available.       *
+
+
+
+*With Regards,*
+*Satpreet Saini*
+*Business Development Officer.*
+*Impetus Consultrainers*
+
+
+
+
+*Office No.13, 1st Floor, Bismillah Building, Ranade Road, Opposite Suvidha
+Store , Near Railway Station , Dadar (West), Mumbai - 400028. *
+*Tel:- 8655006608*
+*Website:- www.impetusconsultrainers.com
+<http://www.impetusconsultrainers.com>*
+
+--0000000000008f93d60611ba9529
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9Imx0ciI+PGRpdiBjbGFzcz0iZ21haWxfZGVmYXVsdCIgc3R5bGU9ImZvbnQtZmFt
+aWx5Omdlb3JnaWEsc2VyaWY7Zm9udC1zaXplOnNtYWxsO2NvbG9yOiMzZDg1YzYiPjxkaXYgc3R5
+bGU9ImNvbG9yOnJnYigzNCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMt
+c2VyaWYiPjxiPkRlYXIgQ2FuZGlkYXRlLDwvYj48L2Rpdj48ZGl2IHN0eWxlPSJjb2xvcjpyZ2Io
+MzQsMzQsMzQpO2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIj48YnI+PC9k
+aXY+PGRpdiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0KTtmb250LWZhbWlseTpBcmlhbCxIZWx2
+ZXRpY2Esc2Fucy1zZXJpZiI+QXJlIHlvdSBmYXNjaW5hdGVkIGJ5IGRhdGE/IEtlZW4gdG8gc3Rh
+cnQgYSBjYXJlZXIgaW4gdGhlIGRhdGEgZmllbGQsIG9yIGp1c3Qgd2FudCB0byB1bmRlcnN0YW5k
+IHdoYXQgYWxsIHRoZSBmdXNzIGlzIGFib3V0PyDCoCDCoCDCoDxicj5Eb24mIzM5O3QgbWlzcyBv
+dXQgaW5mb3JtYXRpdmUgd29ya3Nob3Agb24gRGF0YSBBbmFseXRpY3MgYW5kIGNhcmVlciBpbnNp
+Z2h0czxicj48YnI+PC9kaXY+PGRpdiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0KTtmb250LWZh
+bWlseTpBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiI+PGI+U2NoZWR1bGVkwqA8L2I+b24gV2Vk
+bmVzZGF5LCAyMXN0IEZlYi4gMjQgYXQgMTE6MzAgYW3CoDwvZGl2PjxkaXYgc3R5bGU9ImNvbG9y
+OnJnYigzNCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPjxi
+PlZlbnVlOiBJbXBldHVzIENvbnN1bHRyYWluZXJzPC9iPiwgMTMsIEZpcnN0IEZsb29yLCBCaXNt
+aWxsYWggQnVpbGRpbmcsIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgPC9kaXY+PGRpdiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0
+KTtmb250LWZhbWlseTpBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiI+T3BwLiBTdXZpZGhhIFNo
+b3dyb29tLCBEYWRhciAoVykuIE11bWJhaSAyOCDCoDxicj7CoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoMKgPC9kaXY+PGRp
+diBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0KTtmb250LWZhbWlseTpBcmlhbCxIZWx2ZXRpY2Es
+c2Fucy1zZXJpZiI+PGI+V2hhdCB3aWxsIHlvdSBsZWFybj8gwqAgwqDCoDwvYj7CoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoDwvZGl2PjxkaXYgc3R5
+bGU9ImNvbG9yOnJnYigzNCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMt
+c2VyaWYiPjxicj48L2Rpdj48ZGl2IHN0eWxlPSJjb2xvcjpyZ2IoMzQsMzQsMzQpO2ZvbnQtZmFt
+aWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIj7CoPCfkYnwn4+7SW50cm9kdWN0aW9uIHRv
+IERhdGEgYW5hbHl0aWNzIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgwqA8L2Rpdj48ZGl2
+IHN0eWxlPSJjb2xvcjpyZ2IoMzQsMzQsMzQpO2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxz
+YW5zLXNlcmlmIj7CoPCfkYnwn4+7RGF0YSBDbGVhbmluZzwvZGl2PjxkaXYgc3R5bGU9ImNvbG9y
+OnJnYigzNCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPsKg
+8J+RifCfj7tEZXNjcmlwdGl2ZSBTdGF0aXN0aWNzIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgPC9kaXY+PGRpdiBzdHlsZT0iY29sb3I6
+cmdiKDM0LDM0LDM0KTtmb250LWZhbWlseTpBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiI+wqDw
+n5GJ8J+Pu0RhdGEgVmlzdWFsaXphdGlvbiDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoCDCoDwvZGl2PjxkaXYgc3R5bGU9ImNvbG9yOnJn
+YigzNCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPvCfkYnw
+n4+7wqBDYXJlZXIgb3Bwb3J0dW5pdGllc8KgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKgIMKg
+IMKgwqA8L2Rpdj48ZGl2IHN0eWxlPSJjb2xvcjpyZ2IoMzQsMzQsMzQpO2ZvbnQtZmFtaWx5OkFy
+aWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIj48YnI+PGI+VG8gcmVnaXN0ZXIgeW91ciBuYW1lIFJl
+cGx5IHdpdGggJiMzOTtZRVMmIzM5O8KgPC9iPjwvZGl2PjxkaXYgc3R5bGU9ImNvbG9yOnJnYigz
+NCwzNCwzNCk7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPjxiPjxicj48
+L2I+PC9kaXY+PGRpdiBzdHlsZT0iY29sb3I6cmdiKDM0LDM0LDM0KTtmb250LWZhbWlseTpBcmlh
+bCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiI+PGI+SHVycnkgdXAgLi5GZXcgc2VhdHMgYXZhaWxhYmxl
+LsKgIMKgIMKgIMKgPC9iPsKgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAgwqAg
+wqAgwqAgwqAgwqDCoDxicj48Yj5XaXRoIFJlZ2FyZHMsPC9iPjwvZGl2PjwvZGl2PjxkaXY+PGRp
+diBkaXI9Imx0ciIgY2xhc3M9ImdtYWlsX3NpZ25hdHVyZSIgZGF0YS1zbWFydG1haWw9ImdtYWls
+X3NpZ25hdHVyZSI+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+
+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0
+ciI+PGRpdiBkaXI9Imx0ciI+PGRpdj48ZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5Omdlb3Jn
+aWEsc2VyaWY7Zm9udC1zaXplOnNtYWxsIj48ZGl2IGNsYXNzPSJnbWFpbF9kZWZhdWx0IiBzdHls
+ZT0iZm9udC1mYW1pbHk6Z2VvcmdpYSxzZXJpZjtmb250LXNpemU6c21hbGw7Y29sb3I6cmdiKDYx
+LDEzMywxOTgpIj48L2Rpdj48L2Rpdj48ZGl2IHN0eWxlPSJmb250LWZhbWlseTpnZW9yZ2lhLHNl
+cmlmO2ZvbnQtc2l6ZTpzbWFsbCI+PGZvbnQgc2l6ZT0iMiI+PGI+U2F0cHJlZXQgU2Fpbmk8L2I+
+PC9mb250Pjxicj48L2Rpdj48ZGl2IHN0eWxlPSJmb250LWZhbWlseTpnZW9yZ2lhLHNlcmlmO2Zv
+bnQtc2l6ZTpzbWFsbCI+PGIgc3R5bGU9ImNvbG9yOnJnYigwLDAsMjU1KSI+QnVzaW5lc3MgRGV2
+ZWxvcG1lbnQgT2ZmaWNlci48L2I+PGJyPjwvZGl2PjxkaXY+PGIgc3R5bGU9ImNvbG9yOnJnYigw
+LDAsMjU1KTtmb250LXNpemU6bGFyZ2U7Zm9udC1mYW1pbHk6Z2VvcmdpYSxzZXJpZiI+PC9iPjwv
+ZGl2PjxkaXY+PGIgc3R5bGU9ImNvbG9yOnJnYigwLDAsMjU1KTtmb250LXNpemU6bGFyZ2U7Zm9u
+dC1mYW1pbHk6Z2VvcmdpYSxzZXJpZiI+SW1wZXR1cyBDb25zdWx0cmFpbmVyczwvYj48YnI+PC9k
+aXY+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLDAsMCkiPjxiPk9mZmljZSBOby4xMyw8YnI+DQog
+ICAgICAgICAgICAgICAgICAgIDFzdCBGbG9vciwgQmlzbWlsbGFoIEJ1aWxkaW5nLDxicj4NCiAg
+ICAgICAgICAgICAgICAgICAgUmFuYWRlIFJvYWQsIE9wcG9zaXRlIFN1dmlkaGEgU3RvcmUgLDxi
+cj4NCgkJCQkJTmVhciBSYWlsd2F5IFN0YXRpb24gLCA8YnI+DQogICAgICAgICAgICAgICAgICAg
+IERhZGFyIChXZXN0KSwgTXVtYmFpIC0gNDAwMDI4Lg0KPC9iPjwvc3Bhbj48Zm9udCBzaXplPSIy
+Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6Z2VvcmdpYSxzZXJpZjtiYWNrZ3JvdW5kLWNvbG9y
+OnJnYigyNTUsMjU1LDI1NSkiPjwvc3Bhbj48L2ZvbnQ+PGJyPjxmb250IHNpemU9IjIiPjxzcGFu
+IHN0eWxlPSJmb250LWZhbWlseTpnZW9yZ2lhLHNlcmlmO2JhY2tncm91bmQtY29sb3I6cmdiKDI1
+NSwyNTUsMjU1KSI+PC9zcGFuPjwvZm9udD48L2Rpdj48Zm9udCBzaXplPSIyIj48c3BhbiBzdHls
+ZT0iZm9udC1mYW1pbHk6Z2VvcmdpYSxzZXJpZjtiYWNrZ3JvdW5kLWNvbG9yOnJnYigyNTUsMjU1
+LDI1NSkiPjxiPlRlbDotIDg2NTUwMDY2MDg8L2I+PGJyPjwvc3Bhbj48L2ZvbnQ+PC9kaXY+PGZv
+bnQgc2l6ZT0iMiI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5Omdlb3JnaWEsc2VyaWY7YmFja2dy
+b3VuZC1jb2xvcjpyZ2IoMjU1LDI1NSwyNTUpIj48Yj5XZWJzaXRlOi0gPGEgaHJlZj0iaHR0cDov
+L3d3dy5pbXBldHVzY29uc3VsdHJhaW5lcnMuY29tIiB0YXJnZXQ9Il9ibGFuayI+PHU+d3d3Lmlt
+cGV0dXNjb25zdWx0cmFpbmVycy5jb208L3U+PC9hPjwvYj48L3NwYW4+PGJyPjwvZm9udD48L2Rp
+dj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48
+L2Rpdj4NCg==
+--0000000000008f93d60611ba9529--
