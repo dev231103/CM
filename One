@@ -14,30 +14,39 @@ help
 
 
 2. FOCA
+1. Install FOCA from its original GitHub repository:  
+https://github.com/ElevenPaths/FOCA  
+2. FOCA requires the installation of Microsoft SQL Server EXPRESS. Hence 
+download it from: 
+https://www.microsoft.com/en-IN/sql-server/sql-server-downloads  
+
+
 3.Utilities
 ping google.com
 ping google.com -f -l 1500
 ping google.com -f -l 1400
 ping google.com -f -l 1200
 
-
 tracert google.com
+Path Analyzer Pro   www.pathanalyzer.com  
+Visual Route   www.visualroute.com  
+Troute   www.mcafee.com  
+3D Traceroute   www.d3tr.de 
+
 
 
 5.Nslookup
-nsloopkup
-server 8.8.8.8
-
-set type=any
-ls -d dns.google
-
+nslookup
+> set querytype=soa
+> google.com
+>ls -d ns1.google.com
 
 6.Website Copier
 
 7. Metasploit
 
 db_status
-nmap -Pn -sS -A -oX Test 10.10.10.50/16  
+nmap -Pn -sS -A -oX Test 10.10.10.50/24
 db_import Test
 
 hosts
